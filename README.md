@@ -70,9 +70,11 @@ docker exec -it kafka-server /opt/kafka/bin/kafka-topics.sh --bootstrap-server l
 
 ### **5️⃣ Run the Producer:**
 
-Activate the virtual environment and start the producer to send data to the topic.
+Create and activate the virtual environment and start the producer to send data to the topic.
 
 ```bash
+# Create the virtual enviroment 
+python3 -m venv kafka_venv
 # Activate the virtual environment
 source kafka_venv/bin/activate
 
