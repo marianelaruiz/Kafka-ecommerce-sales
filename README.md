@@ -76,17 +76,19 @@ Clone the repository and create a virtual environment:
 # Clone the repository
 git clone https://github.com/marianelaruiz/kafka-ecommerce-sales.git
 cd kafka-ecommerce-sales
+
 # Create the virtual enviroment 
 python3 -m venv kafka_venv
+
 # Activate the virtual environment
 source kafka_venv/bin/activate
 
-# Install dependencies
+# Install the dependencies
 pip install -r requirements.txt
 
 ```
 
-### **5️⃣ Run the Producer:**
+### **6️⃣ Run the Producer:**
 
 Activate the virtual environment and start the producer to send data to the topic.
 
@@ -95,13 +97,16 @@ Activate the virtual environment and start the producer to send data to the topi
 python3 producer.py
 ```
 
-### **6️⃣ Run the Consumer:**
+### **7️⃣ Run the Consumer:**
 
 Execute the PySpark consumer to read and process the data from the Kafka topic.
 
 ```bash
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0 consumer.py
 ```
+
+### **8️⃣ Stop the Process:**
+To stop any Kafka service, press Ctrl + C in the terminal.
 
 ---
 
