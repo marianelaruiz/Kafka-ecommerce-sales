@@ -68,16 +68,29 @@ Verify that the topic has been created successfully.
 docker exec -it kafka-server /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
 ```
 
-### **5️⃣ Run the Producer:**
+### **5️⃣ Set up the Environment:**
 
-Create and activate the virtual environment and start the producer to send data to the topic.
+Clone the repository and create a virtual environment:
 
 ```bash
+# Clone the repository
+git clone https://github.com/marianelaruiz/kafka-ecommerce-sales.git
+cd kafka-ecommerce-sales
 # Create the virtual enviroment 
 python3 -m venv kafka_venv
 # Activate the virtual environment
 source kafka_venv/bin/activate
 
+# Install dependencies
+pip install -r requirements.txt
+
+```
+
+### **5️⃣ Run the Producer:**
+
+Activate the virtual environment and start the producer to send data to the topic.
+
+```bash
 # Run the producer
 python3 producer.py
 ```
