@@ -93,7 +93,6 @@ pip install -r requirements.txt
 Activate the virtual environment and start the producer to send data to the topic.
 
 ```bash
-# Run the producer
 python3 producer.py
 ```
 
