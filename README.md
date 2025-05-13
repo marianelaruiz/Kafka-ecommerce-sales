@@ -11,6 +11,8 @@ This project involves the development of a message consumer in PySpark to proces
 ## Data Structure:
 Sales data is received in JSON format, where each entry contains information about an order, the customer, the products purchased, and the sale date. An example of the data is as follows:
 
+```
+
 {
     "id_orden": "b253f149-3f22-413c-9427-a79c38d65a2c",
     "documento_cliente": "431-61-5633",
@@ -20,6 +22,8 @@ Sales data is received in JSON format, where each entry contains information abo
     ],
     "fecha_venta": "12/05/2025 15:33:35"
 }
+
+```
 
 Each product has a name, quantity, and price, which allows the total sales value per product to be calculated through the transformations applied in PySpark.
 
