@@ -37,4 +37,4 @@ while True:
     sale = generate_order()
     print(f"Sending sale: {sale}")
     producer.send('ventas-events', sale)
-    time.sleep(10)
+    time.sleep(5)

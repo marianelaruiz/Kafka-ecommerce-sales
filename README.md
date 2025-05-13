@@ -17,8 +17,8 @@ Sales data is received in JSON format, where each entry contains information abo
     "order_id": "b253f149-3f22-413c-9427-a79c38d65a2c",
     "customer_document": "431-61-5633",
     "products": [
-        {"name": "Smartwatch", "cantidad": 3, "price": 1401},
-        {"name": "Laptop", "cantidad": 1, "price": 2000}
+        {"name": "Smartwatch", "quantity": 3, "price": 1401},
+        {"name": "Laptop", "quantity": 1, "price": 2000}
     ],
     "sale_date": "12/05/2025 15:33:35"
 }
