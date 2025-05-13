@@ -14,13 +14,13 @@ Sales data is received in JSON format, where each entry contains information abo
 ```
 
 {
-    "id_orden": "b253f149-3f22-413c-9427-a79c38d65a2c",
-    "documento_cliente": "431-61-5633",
-    "productos": [
-        {"nombre": "Smartwatch", "cantidad": 3, "precio": 1401},
-        {"nombre": "Laptop", "cantidad": 1, "precio": 2000}
+    "order_id": "b253f149-3f22-413c-9427-a79c38d65a2c",
+    "customer_document": "431-61-5633",
+    "products": [
+        {"name": "Smartwatch", "cantidad": 3, "price": 1401},
+        {"name": "Laptop", "cantidad": 1, "price": 2000}
     ],
-    "fecha_venta": "12/05/2025 15:33:35"
+    "sale_date": "12/05/2025 15:33:35"
 }
 
 ```
