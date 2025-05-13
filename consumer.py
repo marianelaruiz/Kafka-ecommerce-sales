@@ -27,7 +27,7 @@ ventas_df = spark \
     .readStream \
     .format("kafka") \
     .option("kafka.bootstrap.servers", "localhost:9092") \
-    .option("subscribe", "ventas-events") \
+    .option("subscribe", "sales-events") \
     .option("startingOffsets", "latest") \
     .load()
 

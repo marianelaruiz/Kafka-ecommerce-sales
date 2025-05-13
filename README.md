@@ -54,10 +54,10 @@ docker run --name kafka-server -p 9092:9092 -d apache/kafka:4.0.0
 
 ### **3️⃣ Create a Kafka Topic:**
 
-Create the topic `ventas-events` inside the Kafka container.
+Create the topic `sales-events` inside the Kafka container.
 
 ```bash
-docker exec -it kafka-server /opt/kafka/bin/kafka-topics.sh --create     --topic ventas-events     --bootstrap-server localhost:9092
+docker exec -it kafka-server /opt/kafka/bin/kafka-topics.sh --create     --topic sales-events    --bootstrap-server localhost:9092
 ```
 
 ### **4️⃣ List Available Topics:**
